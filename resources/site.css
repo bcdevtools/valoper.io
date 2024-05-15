@@ -7,6 +7,9 @@ body {
 a {
     color: #aaa;
 }
+.fake-a {
+    color: #aaa;
+}
 footer > a {
     color: black;
 }
