@@ -2,8 +2,20 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
 }
+
 a {
     text-decoration: none;
+}
+
+#body-logo {
+    background: url(./images/logo-gold-1.svg) no-repeat center;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+    opacity: .4;
 }
 
 .sticky-content, .main-content, .footer-content {
